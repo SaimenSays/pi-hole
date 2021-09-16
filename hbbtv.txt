@@ -3,3 +3,4 @@ adex-retargeting.redbutton.de
 hbbtv.redbutton.de
 hbbtv-libraries.redbutton.de
 adex.redbutton.de
+hbbtv.servustv.com
