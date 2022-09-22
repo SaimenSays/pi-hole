@@ -1,3 +1,4 @@
+api.sosafe.de
 com-sec.net
 msapps.online
 de-info.org
