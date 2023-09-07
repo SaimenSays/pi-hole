@@ -9,3 +9,4 @@ de-info.org
 de-secure.online
 com-encrypted.net
 net-s03.net
+de-net.net
