@@ -1,1 +1,4 @@
+# According to 37C3 - Toniebox Reverse Engineering 
+# https://www.youtube.com/watch?v=DNufX-tss5M
+
 rtnl.bxcl.de
