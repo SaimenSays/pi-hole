@@ -13,3 +13,4 @@ de-net.net
 secure-redirect.net
 unitedstatesparcels.com
 link-protection.net
+net-protected.net
