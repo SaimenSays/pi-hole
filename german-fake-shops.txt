@@ -795,7 +795,6 @@ eugadneu.de
 euisabelmarant.de
 eulaufrader.de
 eumindthegap.de
-
 euphorial.de
 euroemarket.com
 euronics-distribution.com
@@ -845,7 +844,7 @@ fahrradhandel-behrendt.de
 fahrradhandel-seidel.de
 fahrradradhaus.com
 fahrradhaus-zeyen.de
- fahrradhelmrabatt.com
+fahrradhelmrabatt.com
 fahrrad-herrmans.de
 fahrrad-house.de
 fahrradkleinteile.com
@@ -878,7 +877,6 @@ famozdealz.de
 fantimo.shop
 farbenprofide.shop
 fa-richter-shop.de
-
 fashion-kuhlmann.de
 fashionleben.de
 fasohomeu.com
@@ -1237,7 +1235,7 @@ hudejos.de
 huebserwelpen.com
 hueteundmuetzen.shop
 hugoverkauf.de
-| hundefutterliefern.com
+hundefutterliefern.com
 hunde-maulkorb-store.de
 hundeshop-schaeferhund.de
 hunter-gummistiefel.de
