@@ -270,7 +270,7 @@ baumarkt-neuwied.com
 bbqingshop.com
 bbvipband.shop
 bbvipcheap.shop
-| bbvipcomplex.shop
+bbvipcomplex.shop
 bbvipdocument.shop
 bbviplabel.shop
 bcbocj.shop
@@ -554,7 +554,7 @@ dach-remscheid.de
 dainesemotorrad.com
 daineserabatt.de
 dalonega.com
- damian-versand.com
+damian-versand.com
 damiol-tech.de
 dannerbootsdeutschland.com
 dannerdeutschland.de
@@ -844,7 +844,7 @@ fahrradhandel-behrendt.de
 fahrradhandel-seidel.de
 fahrradradhaus.com
 fahrradhaus-zeyen.de
-fahrradhelmrabatt.com
+ fahrradhelmrabatt.com
 fahrrad-herrmans.de
 fahrrad-house.de
 fahrradkleinteile.com
@@ -956,7 +956,8 @@ frilufts.shop
 frilufts-promo.com
 friluftsrabatt.com
 friluftsverkaufen.com
-frisch-versand.de| fritzelektro.de
+frisch-versand.de
+fritzelektro.de
 fritzelino.shop
 froddo-prada.de
 fr.onlineshops2023.com
@@ -1327,7 +1328,8 @@ kathewohlfahrt-de.com
 katiarastelli.com
 katjapolzer.com
 katzenweltde.de
-kaufdisney.de| kaufengrillzubehor.com
+kaufdisney.de
+kaufengrillzubehor.com
 kaufen-motorrad.com
 kauffahrradzubehoer.com
 kaufhardware.com
@@ -2690,4 +2692,3 @@ zyclisto.de
 2rad-schwarz.de
 420marktplatz.de
 699129.myshopify.com
-lemaprod.com
