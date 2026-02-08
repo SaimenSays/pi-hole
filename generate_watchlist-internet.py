@@ -13,6 +13,6 @@ for row in csv.reader(response.text.splitlines(), delimiter=';'):
         if domain:
             domains.add(domain)
 
-with open("blocklist.txt", "w") as f:
+with open("watchlist-internet", "w") as f:
     for d in sorted(domains):
         f.write(d + "\n")
