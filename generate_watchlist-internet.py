@@ -23,8 +23,8 @@ for row in csv.reader(response.text.splitlines(), delimiter=';'):
                 
         except Exception:
             continue
-            
-        if domain_ascii:
+
+        if "." in domain_ascii:
             domains.add(domain_ascii)
 
 # Datum im ISO-Format
