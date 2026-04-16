@@ -9,16 +9,23 @@ response.encoding = "utf-8"
 domains = set()
 for row in csv.reader(response.text.splitlines(), delimiter=';'):
     if row and row[0] != "Domain":
-        raw = row[0].strip().lower()
-        if raw:
-            # Alles nach "/" entfernen (inkl. Unterseiten)
-            domain = raw.split("/")[0]
-
-            # Optional: http(s) entfernen, falls vorhanden
-            domain = domain.replace("http://", "").replace("https://", "")
+        try:
+            raw = row[0].strip().lower()
+            if raw:
+                # Alles nach "/" entfernen (inkl. Unterseiten)
+                domain = raw.split("/")[0]
+    
+                # Optional: http(s) entfernen, falls vorhanden
+                domain = domain.replace("http://", "").replace("https://", "")
+        
+                # Umlaut-Domains in Punycode umwandeln
+                domain_ascii = domain.encode("idna").decode("ascii")
+                
+        except Exception:
+            continue
             
-            if domain:
-                domains.add(domain)
+        if domain_ascii:
+            domains.add(domain_ascii)
 
 # Datum im ISO-Format
 date_str = datetime.utcnow().strftime("%Y-%m-%d")
