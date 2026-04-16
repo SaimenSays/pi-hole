@@ -3,7 +3,10 @@ name: Update Watchlist-Internet Blocklist
 on:
   schedule:
     - cron: "0 3 * * 1"   # jeden Montag um 03:00 Uhr
-  workflow_dispatch:      # manuell startbar
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 👈 zukunftssicher
 
 jobs:
   update-blocklist:
@@ -17,17 +20,24 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"   # 👈 schneller bei Wiederholungen
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install --upgrade pip requests
 
       - name: Generate blocklist
         run: python generate_watchlist-internet.py
 
       - name: Commit and push changes
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
+
           git add watchlist-internet.txt
-          git commit -m "Update watchlist-internet blocklist" || echo "No changes to commit"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update watchlist-internet blocklist"
+            git push
+          fi
