@@ -1,6 +1,6 @@
 # Quelle: https://www.watchlist-internet.at/liste-betruegerischer-shops/csv/
 # Generiert am: 2026-04-16 (UTC)
-# Anzahl Domains: 33500
+# Anzahl Domains: 33499
 
 01534.bitcoinasystem.su
 02009.bitcoinasystem.su
@@ -4336,7 +4336,6 @@ burton-shops.com
 burton.co.at
 burtonde.de
 burtonoutletstore.com
-burtonsnowboard
 burtonsnowboard.de
 burtschenko.at
 buschmuller.com
